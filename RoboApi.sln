@@ -3,9 +3,42 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36B7A182-D52F-403F-B788-1EB16FFC9BF3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{DD25A414-1D92-4CCE-8062-9C7B1A4B39B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoboApi.Domain", "RoboApi.Domain\RoboApi.Domain.csproj", "{989E1CE6-4886-4513-B785-000F4E11CDDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{7B4931B8-1943-43EF-99CB-56FD272EC687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboApi.API", "RoboApi.API\RoboApi.API.csproj", "{CC811554-7023-4841-8647-BAC2E2F121C8}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{989E1CE6-4886-4513-B785-000F4E11CDDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989E1CE6-4886-4513-B785-000F4E11CDDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989E1CE6-4886-4513-B785-000F4E11CDDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989E1CE6-4886-4513-B785-000F4E11CDDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC811554-7023-4841-8647-BAC2E2F121C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC811554-7023-4841-8647-BAC2E2F121C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC811554-7023-4841-8647-BAC2E2F121C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC811554-7023-4841-8647-BAC2E2F121C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{989E1CE6-4886-4513-B785-000F4E11CDDB} = {DD25A414-1D92-4CCE-8062-9C7B1A4B39B1}
+		{CC811554-7023-4841-8647-BAC2E2F121C8} = {7B4931B8-1943-43EF-99CB-56FD272EC687}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9E0A8F33-2896-46AD-ACDA-73A573EBD439}
