@@ -8,9 +8,10 @@ os estados atuais do Robô e enviar comandos para que este assuma novos estados.
 
 ## Ações previstas para o Robô
 
-|                       Braços                        |
-|-----------------------------------------------------|
+**Braços**
+
 |Braço Esquerdo            |Braço Direito             |
+|--------------------------|--------------------------|
 | Cotovelo                 | Cotovelo                 |
 |  1. Em Repouso           |  1. Em Repouso           |
 |  2. Levemente Contraído  |  2. Levemente Contraído  |
@@ -25,9 +26,10 @@ os estados atuais do Robô e enviar comandos para que este assuma novos estados.
 |  6. 135º                 |  6. 135º                 |
 |  7. 180º                 |  7. 180º                 |
 
-|                       Cabeça                        |
-|-----------------------------------------------------|
+**Cabeça**
+
 |Rotação                   |Inclinação                |
+|--------------------------|--------------------------|
 | 1. -90º                  | 1. -90º                  |
 | 2. -45º                  | 2. -45º                  |
 | 3. Em Repouso            | 3. Em Repouso            |
