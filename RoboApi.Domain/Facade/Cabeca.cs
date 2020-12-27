@@ -27,7 +27,13 @@
             EstadoInclinacao = CabecaEstadoInclinacao.Em_Repouso;
         }
 
-        public void Rotacionar(int estado) => EstadoRotacao = (CabecaEstadoRotacao)estado;
+        public void Rotacionar(int estado)
+        {
+            if (EstadoInclinacao != CabecaEstadoInclinacao.Para_Baixo)
+            {
+                EstadoRotacao = (CabecaEstadoRotacao)estado;
+            }
+        }
 
         public void Inclinar(int estado) => EstadoInclinacao = (CabecaEstadoInclinacao)estado;
     }

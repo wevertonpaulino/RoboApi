@@ -13,6 +13,12 @@
 
         public void MoverCotovelo(int estado) => Cotovelo.Mover(estado);
 
-        public void RotacionarPulso(int estado) => Pulso.Rotacionar(estado);
+        public void RotacionarPulso(int estado)
+        {
+            if (Cotovelo.Estado == CotoveloEstado.Fortemente_Contraido)
+            {
+                Pulso.Rotacionar(estado);
+            }
+        }
     }
 }
