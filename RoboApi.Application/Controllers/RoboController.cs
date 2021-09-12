@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RoboApi.API.Services;
+using RoboApi.Application.Services;
 
-namespace RoboApi.API.Controllers
+namespace RoboApi.Application.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]

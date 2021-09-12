@@ -1,4 +1,4 @@
-﻿namespace RoboApi.API.Services
+﻿namespace RoboApi.Application.Services
 {
     public interface IRoboApiService
     {

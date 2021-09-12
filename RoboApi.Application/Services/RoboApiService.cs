@@ -1,6 +1,6 @@
 ﻿using RoboApi.Domain.Services;
 
-namespace RoboApi.API.Services
+namespace RoboApi.Application.Services
 {
     public class RoboApiService : IRoboApiService
     {
